@@ -44,5 +44,8 @@
 #
 class assh {
 
+  class { 'assh::install': } ->
+  class { 'assh::service': }
 
 }
+
